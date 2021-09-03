@@ -32,3 +32,14 @@
 
 	The first three letter is for the user or the own of the file, next three is for group and the last is for other
 
+	Usage: of clone, add, commit, and push
+
+	-git Clone is a repository into a new directory.
+
+	- git add: Add file contents to the index.
+
+	-git commit:is for Recording changes to the repository.
+
+	-git push is for Update remote refs along with associated objects.
+
+	-The last I also like to use "git status" whish show the working tree status  
