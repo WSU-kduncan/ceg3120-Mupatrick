@@ -31,3 +31,4 @@
 	– = no permission	 
 
 	The first three letter is for the user or the own of the file, next three is for group and the last is for other
+
