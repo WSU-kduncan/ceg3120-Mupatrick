@@ -1,3 +1,8 @@
+                Name: Patrick Mujambere
+
+                Email: mujambere.2@wright.edu		
+
+
                      CEG-3120 Project 1 
 
 		Initialize git repository
