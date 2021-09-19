@@ -1,4 +1,5 @@
+![mupatr](https://user-images.githubusercontent.com/77375881/132081498-b881323d-89ba-4fc1-9228-ef696c5491e5.PNG)
+![clone](https://user-images.githubusercontent.com/77375881/132079285-33d17eb3-adb0-4f75-bef5-b8a5f39d0d39.PNG)
+![rep](https://user-images.githubusercontent.com/77375881/132079287-339c1165-f08c-4d7b-be27-b87c7fdf8bd3.PNG)
+![repp](https://user-images.githubusercontent.com/77375881/132079288-b2ba6781-ea24-4302-a2f1-ebe66e24fc0a.PNG)
 
-
-![cloneshoot](https://user-images.githubusercontent.com/77375881/132057823-d191d900-a46b-4ddb-9e22-7c25ae55ae51.PNG)
-![instance](https://user-images.githubusercontent.com/77375881/132057824-661d0f76-aec9-4042-8572-fe4e50389a38.PNG)
