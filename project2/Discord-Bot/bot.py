@@ -42,15 +42,15 @@ async def on_message(message):
         ),
     ]
 
-    fun_quotes = [
+    just_laugh_quotes = [
         'My mother always used to say: The older you get, the better you get, unless you’re a banana.',
         'Before you marry a person, you should first make them use a computer with slow internet to see who they real are.',
         'When your mother asks, ‘Do you want a piece of advice?’ it is a mere formality. It doesn’t matter if you answer yes or no. You’re going to get it anyway.',
         'Never follow anyone else’s path. Unless you’re in the woods and you’re lost and you see a path. Then by all means follow that path',
     ]
 
-    if message.content == 'fun!':
-        response = random.choice(fun_quotes)
+    if message.content == 'laugh!':
+        response = random.choice(just_laugh_quotes)
         await message.channel.send(response)
     elif message.content == 'favority!':
         response2 = random.choice(my_favority_quotes)

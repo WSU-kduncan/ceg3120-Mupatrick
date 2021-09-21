@@ -30,17 +30,23 @@ and adding a new environment variable in the file called .env where my bot token
 
 			what commands you can type in your Discord server
 
-fun! (for display fun quote)
+laugh!
 
-favority! (for display some of my favority quote)
+favority! 
 
-Notice: make sure those two words  “fun! and a favority!” Are in lowercase 
+fun!
+
+question!
+
+Notice: make sure those  words are in lowercase 
 
 				what response this will provide (from your bot)
 
-fun! Will respond one randomly quote from  my_favority_quotes (which I happen to have 4 quotes)
+laugh! Will respond a randomly quote form main branch (which I happen to have 4 quotes)
 
-favority! Will respond randomly quote from  fun_quotes (there  are 4 quotes to choice from)
+favority! Will also respond a randomly quote from main (there  are also 4 quotes to choice from)
+
+fun! and question they will display fun quotes from sub-branch
 
 					Research
 
