@@ -30,6 +30,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
+<<<<<<< HEAD
     my_favority_quotes = [
         'If you cannot do great things, do small things in a great way ',
         'Do what you can, with what you have, where you are',
@@ -55,5 +56,25 @@ async def on_message(message):
     elif message.content == 'favority!':
         response2 = random.choice(my_favority_quotes)
         await message.channel.send(response2)
+=======
+    question = [
+        'If we shouldn’t eat at night, why is there a light in the fridge?',
+        'If Cinderella’s shoe fit perfectly, then why did it fall off?',
+        
+    ]
+
+    fun_joke = [
+        'Your life can\'t fall apart if you never had it together.',
+        'Some people just need a high-five. In the face. With a chair.',
+        ]
+
+    if message.content == 'question!':
+        display1 = random.choice(question)
+        await message.channel.send(display1)
+
+    elif message.content == 'fun!':
+        display2 = random.choice(fun_joke)
+        await message.channel.send(display2)
+>>>>>>> sub-branch
 
 client.run(TOKEN)
