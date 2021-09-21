@@ -30,25 +30,30 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    brooklyn_99_quotes = [
-        'I\'m the human form of the 💯 emoji.',
-        'Bingpot!',
+    my_favority_quotes = [
+        'If you cannot do great things, do small things in a great way ',
+        'Do what you can, with what you have, where you are',
+        'Do not let what you cannot do interfere with what you can do',
+        'Everything has beauty, but not everyone can see.',
+
         (
-            'Cool. Cool cool cool cool cool cool cool, '
-            'no doubt no doubt no doubt no doubt.'
+            'Never regret anything that made you smile,😀😀 '
+            'whatever you do do it well!.😀'
         ),
     ]
 
-    hitchhiker_quotes = [
-        'There is an art, it says, or rather, a knack to flying. The knack lies in learning how to throw yourself at the ground and miss.',
-        'It is a mistake to think you can solve any major problems just with potatoes.',
-        'In the beginning the Universe was created. This has made a lot of people very angry and been widely regarded as a bad move.',
-        'A common mistake that people make when trying to design something completely foolproof is to underestimate the ingenuity of complete fools.',
+    fun_quotes = [
+        'My mother always used to say: The older you get, the better you get, unless you’re a banana.',
+        'Before you marry a person, you should first make them use a computer with slow internet to see who they real are.',
+        'When your mother asks, ‘Do you want a piece of advice?’ it is a mere formality. It doesn’t matter if you answer yes or no. You’re going to get it anyway.',
+        'Never follow anyone else’s path. Unless you’re in the woods and you’re lost and you see a path. Then by all means follow that path',
     ]
 
-    if message.content == 'towel!':
-        response = random.choice(brooklyn_99_quotes)
-        response = random.choice(hitchhiker_quotes)
+    if message.content == 'fun!':
+        response = random.choice(fun_quotes)
         await message.channel.send(response)
+    elif message.content == 'favority!':
+        response2 = random.choice(my_favority_quotes)
+        await message.channel.send(response2)
 
 client.run(TOKEN)
