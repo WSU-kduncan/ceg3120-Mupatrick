@@ -2,7 +2,9 @@
                      
 1 VPC created & configured & role described
         In the navigation pane, under VPC Dashboard
+        
         Click on your VPCs 
+        
         On right side, click on create VPC 
         Enter VPC Name 
         Enter IPV4 CIDR block
