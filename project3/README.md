@@ -1,16 +1,16 @@
                      Part 1
                      
 1 VPC created & configured & role described
+
         In the navigation pane, under VPC Dashboard
-        
         Click on your VPCs 
-        
         On right side, click on create VPC 
         Enter VPC Name 
         Enter IPV4 CIDR block
         Click create CIDR on bottom 
         
 2 Subnet created & configured & role described
+
         under VPC Dashboard
         Click on subnets
         On right side click on create subnet
@@ -20,6 +20,7 @@
         Click create
         
 3 Internet gateway created & configured & role described
+
         In the navigation pane, under VPC Dashboard
         Click on internet gateways 
         click on create gateway 
@@ -29,6 +30,7 @@
         Click yes create
         
 4 Route table created and configured & role described
+
         Under  VPC Dashboard
         Click route tables
         Click on create route table
@@ -39,6 +41,7 @@
         Then associate with a subnet by click on subnet association, edit select subnet and click on save  
         
 5 Security group created and configured & role described
+
        In the navigation pane, under VPC Dashboard
        Click on security groups
        Click on create security group
