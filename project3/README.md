@@ -121,8 +121,8 @@
 
 8 Screenshot with instance details
 
-    ![Uploading Services.jpeg…]()
-
+    ![Services](https://user-images.githubusercontent.com/77375881/137005882-4083ddde-a68d-4fcf-a336-a0cd9bd50a8b.jpeg)
+    
 
 9 How to change hostname via commands on instance
 
