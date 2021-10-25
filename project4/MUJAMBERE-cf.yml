@@ -21,9 +21,8 @@ Mappings:
   AWSRegionUbuntu: # AMI for Ubuntu server in each supported region
     us-east-1: # N. Virginia
       PV64: NOT_SUPPORTED
-      HVM64: ami-087c17d1fe0178315
+      HVM64: ami-07d0cf3af28718ef8
       HVMG2: NOT_SUPPORTED
-    
 Resources:
   VPC:
     Type: "AWS::EC2::VPC"
@@ -33,7 +32,7 @@ Resources:
         - Key: Application
           Value: !Ref "AWS::StackId"
         - Key: Name
-          Value: CF-instance VPC
+          Value: Practice VPC
   Subnet:
     Type: "AWS::EC2::Subnet"
     Properties:
@@ -109,7 +108,7 @@ Resources:
         - Key: Application
           Value: !Ref "AWS::StackId"
         - Key: Name
-          Value: CF-instance
+          Value: Practice
       NetworkInterfaces:
         - GroupSet:
             - !Ref Lab4SecurityGroup
@@ -117,7 +116,7 @@ Resources:
           DeviceIndex: "0"
           DeleteOnTermination: "true"
           SubnetId: !Ref Subnet
-          PrivateIpAddress: 10.0.0.8 
+          PrivateIpAddress: 10.0.0.10
       UserData:
         Fn::Base64: !Sub |
           #!/bin/bash -xe
@@ -125,6 +124,6 @@ Resources:
           apt-get install -y \
           git \ 
           python3 \
-          python3-pip3 && \
+          python3-pip && \
+          hostnamectl set-hostname patrick && \
           reboot
-
