@@ -32,7 +32,7 @@ Resources:
         - Key: Application
           Value: !Ref "AWS::StackId"
         - Key: Name
-          Value: Practice VPC
+          Value: CF-instance VPC
   Subnet:
     Type: "AWS::EC2::Subnet"
     Properties:
@@ -108,7 +108,7 @@ Resources:
         - Key: Application
           Value: !Ref "AWS::StackId"
         - Key: Name
-          Value: Practice
+          Value: CF-instance
       NetworkInterfaces:
         - GroupSet:
             - !Ref Lab4SecurityGroup
@@ -127,3 +127,4 @@ Resources:
           python3-pip && \
           hostnamectl set-hostname patrick && \
           reboot
+
