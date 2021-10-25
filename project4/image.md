@@ -1,5 +1,3 @@
 Prove of instance running
-
-![CF-instanceProf](https://user-images.githubusercontent.com/77375881/138479554-352afbdf-71d9-49e0-b1a8-3b54669a2aac.jpeg)
-![runningInstance](https://user-images.githubusercontent.com/77375881/138479558-68787e0c-739d-4ddd-8c82-16e3ff4f2470.jpeg)
-
+![runningInstance](https://user-images.githubusercontent.com/77375881/138724297-470476e9-f315-4509-8a37-e16abeb0c5b2.jpeg)
+<img width="1306" alt="Screen Shot 2021-10-25 at 11 19 35 AM" src="https://user-images.githubusercontent.com/77375881/138724299-631aeb4a-70d2-40ce-93b4-667743c16146.png">
