@@ -103,7 +103,7 @@ Setup the following and add documentation or screenshots to your README.md file 
 		    
 		frontend front
 			# a front that accepts request from clients
-		    bind 52.1.136.68:80
+		    	# bind 52.1.136.68:80
 		    bind 10.0.0.10:80
 			# bind *:80
 		    default_backend patrick_serv
