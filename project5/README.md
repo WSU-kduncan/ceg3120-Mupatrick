@@ -19,7 +19,7 @@ All said and done, your template should do the following:
 				  
 2 Create 3 instances: 
 
-	- Succeed (check image file)
+	- Succeed (check image file) [image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
 	
 3 One instance configured such that:
 
@@ -35,7 +35,7 @@ All said and done, your template should do the following:
 	- the hostname changed and unique for each system - Succeed
 	
 5 The deliverable for this part is the CloudFormation template included in your repo folder. 
-	- for template check "patrick_template.yml" file
+	- for template check "patrick_template.yml" file [template file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/patrick_template.yml)
 
 		Part 2 - Setup Load Balancing TODOs
 		
@@ -55,7 +55,7 @@ Setup the following and add documentation or screenshots to your README.md file 
 	Have a private key and remember to change permission
 	For me I have my private key in each system then I used a below command
 	ssh -i /home/ubuntu/ceg3120-f21.pem ubuntu@private Ip
-	“Check image file for prove”
+	“Check image file for prove” [image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
  
 3 HAProxy configuration & documentation requirements
 
