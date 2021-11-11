@@ -56,7 +56,8 @@ Setup the following and add documentation or screenshots to your README.md file 
 	Have a private key and remember to change permission
 	For me I have my private key in each system then I used a below command
 	ssh -i /home/ubuntu/ceg3120-f21.pem ubuntu@private Ip
-	“Check image file for prove” [image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
+	“Check image file for prove” 
+[image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
  
 3 HAProxy configuration & documentation requirements
 
@@ -119,6 +120,7 @@ Setup the following and add documentation or screenshots to your README.md file 
 		
 	Resources used (websites)
 		- https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+Prove [proxy](http://52.1.136.68/)
 
 4 Webserver 1 & 2 configuration & documentation requirements
 
@@ -148,6 +150,8 @@ Setup the following and add documentation or screenshots to your README.md file 
 		
 	Resources used (websites)
 	- https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04
+Prove [WebSer1](http://34.197.151.222/)
+Prove [Webser2](http://50.17.252.186/)
 
 5 From the browser, when connecting to the proxy server, take two screenshots.
 	one screenshot that shows content from "server 1"  Succeed (check image file)
