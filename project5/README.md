@@ -19,7 +19,8 @@ All said and done, your template should do the following:
 				  
 2 Create 3 instances: 
 
-	- Succeed (check image file) [image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
+	- Succeed (check image file)
+[image file](https://github.com/WSU-kduncan/ceg3120-Mupatrick/blob/main/project5/image.md)
 	
 3 One instance configured such that:
 
