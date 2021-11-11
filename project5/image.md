@@ -40,7 +40,7 @@ WebServ2
 
 Part 2 - Setup Load Balancing TODOs
 
-1 ![ubuntu@WebServ1 $ cat etchosts](https://user-images.githubusercontent.com/77375881/141347064-1007c424-08dc-4b79-a71b-4d09cfc6f335.jpeg)
+![cat etc nosts](https://user-images.githubusercontent.com/77375881/141354933-21b24ce7-7a0d-4d17-b7bf-5413bca3556a.jpeg)
 
 
 
